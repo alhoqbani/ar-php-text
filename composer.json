@@ -1,0 +1,31 @@
+{
+    "name": "alhoqbani/ar-php-text",
+    "description": "Arabic Text related classes from Khaled Al-Sham'aa's ar-php Library",
+    "type": "library",
+    "keywords": [ "ar-php", "Arabic"],
+    "license": "LGPL-3.0",
+    "homepage": "https://github.com/alhoqbani/ar-php-time",
+    "authors": [
+        {
+            "name": "Khaled Al-Shamaa",
+            "email": "khaled@ar-php.org",
+            "homepage":"http://www.ar-php.org"
+        },
+        {
+            "name": "Hamoud Alhoqbani",
+            "email": "h.alhoqbani@gmail.com",
+            "homepage":"https://www.github.com/alhoqbani"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alhoqbani\\ArPHP\\": "src/"
+        }
+    }
+}
